@@ -231,7 +231,7 @@ This project serves as the foundation for the next networking security project:
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Rajendra Prasad D**
 
 Cybersecurity Enthusiast | Networking | Wireshark | Linux | VirtualBox
 
