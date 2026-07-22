@@ -1,0 +1,38 @@
+220 (vsFTPd 2.3.4)
+
+OPTS UTF8 ON
+
+200 Always in UTF8 mode.
+
+USER msfadmin
+
+331 Please specify the password.
+
+PASS msfadmin
+
+230 Login successful.
+
+PORT 192,168,56,1,255,42
+
+200 PORT command successful. Consider using PASV.
+
+LIST
+
+150 Here comes the directory listing.
+226 Directory send OK.
+
+XPWD
+
+257 "/home/msfadmin"
+
+PORT 192,168,56,1,255,69
+
+200 PORT command successful. Consider using PASV.
+
+RETR test.txt
+
+550 Failed to open file.
+
+QUIT
+
+221 Goodbye.
